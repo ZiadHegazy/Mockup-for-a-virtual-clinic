@@ -1,0 +1,1639 @@
+﻿* {
+    padding: 0;
+    font-family: sans-serif;
+    margin-left: 0;
+    margin-right: 3px;
+    margin-top: 0px;
+}
+
+.body {
+    background-image: url('img/Landing.jpg');
+    background-color: black;
+    overflow: hidden;
+}
+
+.loginbox {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Landing.jpg');
+    background-size: cover;
+    background-color: black;
+    overflow: hidden;
+}
+
+.loginboxx {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/doctor2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.loginbox2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-37%);
+    width: 80%;
+    height: 60%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+
+.loginbox3 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 450px;
+    height: 520px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.loginbox4 {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 450px;
+    height: 520px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box1 {
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    width: 40%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box11 {
+    position: absolute;
+    height: 0%;
+    left: 30%;
+    width: 60%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box11Dis {
+    position: absolute;
+    height: 0%;
+    left: 5%;
+    width: 40%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box22Dis {
+    position: absolute;
+    height: 0%;
+    left: 48%;
+    width: 20%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box22Dis2 {
+    position: absolute;
+    height: 0%;
+    left: 37%;
+    width: 25%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box33Dis {
+    position: absolute;
+    height: 0%;
+    left: 71%;
+    width: 20%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.boxaa {
+    transform: translate(-15%,-15%);
+}
+
+.boxaa2 {
+    transform: translate(-10%,-15%);
+}
+
+.sss {
+    transform: translate(10%,0);
+}
+
+.boxaas {
+    transform: translate(-17%,-12%);
+}
+
+.box2 {
+    position: absolute;
+    left: 5%;
+    width: 20%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.box3 {
+    position: absolute;
+    left: 27.5%;
+    width: 20%;
+    height: 65%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: rgb(55, 173, 222);
+}
+
+​
+.rate {
+    transform: translate(-7.5%,-15%);
+}
+
+.rates {
+    transform: translate(-5.5%,-14%);
+}
+
+.editButt {
+    position: absolute;
+    left: 105%;
+    vertical-align: central;
+}
+
+.phonenum {
+    position: absolute;
+    left: 140%;
+    top: 0%;
+}
+
+.lblcard44 {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,0.75);
+    margin-left: 0px;
+}
+
+.grid {
+    color: white;
+    text-align: center;
+    border: 2px solid #808080;
+    left: 15%;
+    position: absolute;
+}
+
+.gridt {
+    width: 1200px;
+    margin: 0px 150px;
+    color: white;
+    text-align: center;
+    border: 2px solid #808080;
+    left: 9%;
+}
+
+.btnsubmit {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #808080;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit:hover {
+        background-color: rgb(162, 162, 162);
+    }
+
+.btnsubmit33 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit33:hover {
+        background-color: rgb(0, 164, 255);
+    }
+
+.btnsubmit333 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 70%;
+    left: 31.5%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e61515;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit333:hover {
+        background-color: #ff0000;
+    }
+
+.btnsubmit2 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 82%;
+    left: 11%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit2:hover {
+        background-color: rgb(0, 227, 255);
+    }
+
+.btnsubmit3 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 85%;
+    left: 36%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit3:hover {
+        background-color: rgb(0, 164, 255);
+    }
+
+.btnsubmit3Blue {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 85%;
+    left: 36%;
+    font-size: 16px;
+    color: rgb(0, 180, 255);
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit3Blue:hover {
+        background-color: white;
+    }
+
+.btnsubmit4 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 105%;
+    left: 170%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(243, 26, 26);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit4:hover {
+        background-color: #ff0000;
+    }
+
+.viewAllbutton {
+    border: none;
+    outline: none;
+    transform: translate(-120%,300%);
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .viewAllbutton:hover {
+        background-color: rgb(46, 194, 255);
+    }
+
+
+.submitted {
+    color: #49ff00;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+}
+
+.view3 {
+    transform: translate(0,-20%);
+}
+
+.confirm {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 105%;
+    top: 106%;
+    background-color: rgb(136, 220, 21);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm:hover {
+        background-color: #4fef15;
+    }
+
+.confirm2 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 105%;
+    top: 106%;
+    background-color: #19e02e;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm2:hover {
+        background-color: #43ff00;
+    }
+
+.confirm22 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 0%;
+    top: 106%;
+    background-color: #19e02e;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm22:hover {
+        background-color: #43ff00;
+    }
+
+.changehours {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    top: 106%;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .changehours:hover {
+        background-color: rgb(27, 182, 247);
+    }
+
+.changehours2 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    top: 120%;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .changehours2:hover {
+        background-color: rgb(27, 182, 247);
+    }
+
+.confirm222 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 106%;
+    background-color: #e01919;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm222:hover {
+        background-color: #ff0000;
+    }
+
+.confirm2222 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 296%;
+    background-color: #e01919;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm2222:hover {
+        background-color: #ff0000;
+    }
+
+.confirmm2222 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 276%;
+    background-color: #e01919;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirmm2222:hover {
+        background-color: #ff0000;
+    }
+
+.confirm3 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 150%;
+    top: 106%;
+    background-color: #808080;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm3:hover {
+        background-color: #a1a1a1;
+    }
+
+.confirm4 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 130%;
+    top: 106%;
+    background-color: #808080;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm4:hover {
+        background-color: #a1a1a1;
+    }
+
+.confirm5 {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 140%;
+    top: 106%;
+    background-color: #808080;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .confirm5:hover {
+        background-color: #a1a1a1;
+    }
+
+.uploadtxt {
+    color: #454545;
+    margin: 30px 30px;
+}
+
+.input {
+    margin: 0px 30px;
+}
+
+.txtname {
+    width: 70%;
+    margin: 0px 30px;
+    border: none;
+    border-bottom: 1px solid #808080;
+    outline: none;
+    height: 30px;
+    color: rgba(0,0,0,0.75);
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.txtname2 {
+    width: 70%;
+    margin: -50px 30px;
+    border: none;
+    border-bottom: 1px solid #808080;
+    outline: none;
+    height: 30px;
+    color: rgba(0,0,0,0.75);
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.txtname3 {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #808080;
+    outline: none;
+    height: 30px;
+    transform: translate(0%,0);
+    color: rgba(0,0,0,0.75);
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.txtemail, .txtpass, .btnsubmit {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.txtemail, .txtpass {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.meeow {
+    color: #00b1ff;
+    text-transform: uppercase;
+}
+
+    .meeow ul li::after {
+        content: '';
+        height: 3px;
+        width: 100px;
+        background: #009688;
+        left: 0;
+        bottom: -10px;
+    }
+
+.meeow2 {
+    color: #808080;
+    text-transform: uppercase;
+}
+
+    .meeow2 ul li::after {
+        content: '';
+        height: 3px;
+        width: 100px;
+        background: #808080;
+        left: 0;
+        bottom: -10px;
+    }
+
+
+.hidden_area {
+    background-color: transparent;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+    width: 170px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+ul li:hover .hidden_area {
+    display: block;
+}
+
+.hidden_area2 {
+    background-color: transparent;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+    width: 150px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+ul li:hover .hidden_area2 {
+    display: block;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    transform: translate(0,-10%);
+    width: 200px;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+}
+
+.navbar ul li {
+    transform: translate(0,-150%);
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight:bold;
+    }
+
+.normal::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #00b1ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.normal:hover::after {
+    width: 100%;
+}
+
+.button1 {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #009688;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .button1:hover {
+        transition: 0.5s;
+        background-color: #009688;
+    }
+
+.button3 {
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    margin: 25px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #009688;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .button3:hover {
+        transition: 0.5s;
+        background-color: #009688;
+    }
+
+.button2 {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #009688;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+    .button2:hover {
+        transition: 0.5s;
+        background-color: #0fcfbd;
+    }
+
+    .button2:disabled {
+        background-color: #808080;
+    }
+
+.lblname {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.lblnamee {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.txttypee {
+    width: 15%;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.txttype {
+    width: 12%;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.cal {
+    width: 10%;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.card {
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.line {
+    width: 120px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.textss {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+.textsss {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.text2 {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: rgb(0,180,255);
+}
+
+.img {
+    transform: translate(20%,30%);
+}
+
+.vl {
+    border-left: 6px solid rgb(0, 180, 255);
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl2 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -60px;
+    top: 16%;
+    width: 100%;
+}
+
+.vl3 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -60px;
+    top: 46%;
+    width: 100%;
+}
+
+.vl4 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -60px;
+    top: 78%;
+    width: 100%;
+}
+
+.vl5 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -60px;
+    top: 110%;
+    width: 200%;
+}
+
+.vl6 {
+    border-left: 4px solid #808080;
+    position: absolute;
+    left: 70%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.lblcard1 {
+    position: absolute;
+    left: 150%;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,0.75);
+}
+
+.lblcard {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,0.75);
+    margin-left: 50px;
+}
+
+.lblcarde {
+    position: absolute;
+    left: 135%;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,0.75);
+    margin-left: 50px;
+}
+
+.lblcard2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(0, 180, 255);
+    position: absolute;
+    font-family: sans-serif;
+    left: 8%;
+    top: 73%;
+}
+
+.drop {
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.check {
+    color: white;
+}
+
+.data {
+    font-family: Arial;
+    transform: translate(14%,-240%);
+}
+
+.waitingroom {
+    color: rgb(0, 180, 255);
+    position: absolute;
+    left: 53%;
+    top: 32%;
+}
+
+.box111 {
+    transform: translate(0,8%);
+}
+
+.boxdis111 {
+    transform: translate(0%,0%);
+}
+
+.box1111 {
+    transform: translate(0,-12%);
+}
+
+.box11111 {
+    transform: translate(0,-15%);
+}
+
+.box111111 {
+    position: absolute;
+    left: 46%;
+    top: 15%;
+}
+
+.partition {
+    transform: translate(20%,-5%);
+}
+
+.partition2 {
+    position: absolute;
+    left: 30%;
+    margin-left: 40px;
+    width: 20%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.partition3 {
+    position: absolute;
+    left: 50%;
+    margin-left: 80px;
+    width: 40%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: white;
+}
+
+.scheduling {
+    transform: translate(60%,0%);
+}
+
+.divo {
+    position: absolute;
+    left: 27.8%;
+    width: 43.5%;
+    transform: translate(0,37%);
+    height: 51%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.divo2 {
+    position: absolute;
+    left: 67.5%;
+    top: 34%;
+    width: 30%;
+}
+
+.textss2 {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    color: limegreen;
+}
+
+.empty {
+    width: 15%;
+    transform: translate(105%,-135%);
+    margin-left: -5px;
+    margin-top: -2px;
+}
+
+.boxs {
+    transform: translate(0,-50%);
+}
+
+.boxss {
+    transform: translate(0,-30%);
+}
+
+.boxs2 {
+    transform: translate(0,-20%);
+}
+
+.boxs4 {
+    transform: translate(-10%,-15%);
+}
+
+.divodivo {
+    position: absolute;
+    left: 75%;
+    width: 20%;
+    transform: translate(0,37%);
+    height: 50%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.divodivos {
+    position: absolute;
+    left: 75%;
+    width: 20%;
+    height: 59%;
+    transform: translate(0,17%);
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.discbox {
+    position: absolute;
+    left: 4%;
+    width: 95%;
+}
+
+.discbox2 {
+    position: absolute;
+    left: 41%;
+    top: 20%;
+    width: 40%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.discbox23 {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    width: 20%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.discbox21 {
+    position: absolute;
+    left: 0%;
+    top: 22%;
+    width: 40%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.discbox22 {
+    position: absolute;
+    left: 60%;
+    top: 22%;
+    width: 40%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.discbox222 {
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    width: 40%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.discbox3 {
+    position: absolute;
+    left: 4%;
+    top: 65%;
+    width: 37.5%;
+    height: 25%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.txtemail2 {
+    transform: translate(0,-20%);
+    border: groove;
+    border-width: 3px;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: snow;
+}
+
+.textat {
+    color: black;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(0, 180, 255);
+    margin-left: 0px;
+}
+
+.discGroup {
+    transform: translate(195%,-85%);
+}
+
+.discbox33 {
+    position: absolute;
+    left: 7%;
+    top: 25%;
+    width: 85%;
+    height: 70%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.txtemail22 {
+    transform: translate(0,10%);
+    border: groove;
+    border-width: 3px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: snow;
+}
+
+.btnsubmitt33 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmitt33:hover {
+        background-color: rgb(0, 164, 255);
+    }
+
+.textot {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-weight: bold;
+    font-size: 22px;
+    color: #19e02e;
+    margin-left: 0px;
+}
+
+.textoto {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-weight: bold;
+    font-size: 22px;
+    color: #19e02e;
+    margin-left: 0px;
+}
+
+.emptyy {
+    position: absolute;
+    width: 15%;
+    top: 35%;
+    left: 17%;
+    border-color: red;
+    border-width: 4px;
+}
+
+.adhamview {
+    position: absolute;
+    width: 15%;
+    top: 43%;
+    left: 21%;
+    border-color: red;
+    border-width: 4px;
+}
+
+.weekview {
+    position: absolute;
+    width: 15%;
+    top: 32%;
+    left: 61%;
+    border-color: red;
+    border-width: 4px;
+}
+
+.leftbutt {
+    position: absolute;
+    width: 15%;
+    top: 32%;
+    left: 67%;
+    border-color: red;
+    border-width: 4px;
+}
+
+.rightbutt {
+    position: absolute;
+    width: 15%;
+    top: 32%;
+    left: 69.5%;
+    border-color: red;
+    border-width: 4px;
+}
+
+.videoCall {
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    width: 80%;
+    height: 86%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.mute {
+    position: absolute;
+    left: 33%;
+    top: 88%;
+}
+
+.Speaker {
+    position: absolute;
+    left: 43%;
+    top: 88%;
+    right: 371px;
+}
+
+.Camera {
+    position: absolute;
+    left: 53%;
+    top: 88%;
+}
+
+.Close {
+    position: absolute;
+    left: 63%;
+    top: 88%;
+}
+
+.howwas {
+    position: absolute;
+    left: 27.8%;
+    width: 43.5%;
+    transform: translate(0,37%);
+    height: 51%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.divReport {
+    position: absolute;
+    left: 27.8%;
+    width: 43.5%;
+    top: 40%;
+    transform: translate(0,37%);
+    height: 31%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.txtemail23 {
+    transform: translate(0,-20%);
+    border: groove;
+    border-width: 3px;
+    outline: none;
+    height: 80px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: snow;
+}
+
+.textVideo {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+.btnsubmitvid {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 40%;
+    left: 81.5%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e61515;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmitvid:hover {
+        background-color: #ff0000;
+    }
+
+.btnsubmitvid2 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 60%;
+    left: 81.5%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #808080;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmitvid2:hover {
+        background-color: #bababa;
+    }
+
+.sat1 {
+    position: absolute;
+    left: 73.5%;
+    top: 36%;
+}
+
+.sat2 {
+    position: absolute;
+    left: 60%;
+    top: 36%;
+}
+
+.sat3 {
+    position: absolute;
+    left: 46%;
+    top: 36%;
+}
+
+.sat4 {
+    position: absolute;
+    left: 32%;
+    top: 36%;
+}
+
+.sat5 {
+    position: absolute;
+    left: 17.5%;
+    top: 36%;
+}
+
+.Message {
+    position: absolute;
+    left: 8%;
+    top: 24%;
+    font-weight: bold;
+    color: limegreen;
+}
+
+.add {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 105%;
+    left: 25%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 180, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .add:hover {
+        background-color: rgb(42, 205, 255);
+    }
+
+.TextUpComing {
+    transform: translate(0,-75%);
+    color: rgb(0,180,255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.TextUpComing2 {
+    transform: translate(-20%,-75%);
+    color: #a1a1a1;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.TextUpComing3 {
+    transform: translate(0%,-75%);
+    color: white;
+    font-weight: Bold;
+    text-align: center;
+}
+
+.translateUp {
+    transform: translate(-5%,-17%);
+}
+
+.translateUp3 {
+    transform: translate(-3%,-15%);
+}
+
+.translateUp2 {
+    transform: translate(-15%,-14%);
+}
+
+.scroll {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    height: 80%;
+    width: 95%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    .scroll::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 20px;
+    }
+
+    /* Track */
+
+    .scroll::-webkit-scrollbar-track {
+        background: rgb(181, 181, 181);
+        border-radius: 20px;
+    }
+
+    /* Handle */
+
+    .scroll::-webkit-scrollbar-thumb {
+        background: rgb(0, 180, 255);
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+
+        .scroll::-webkit-scrollbar-thumb:hover {
+            background: #555;
+            border-radius: 20px;
+        }
+
+
+
+.translateUp4 {
+    transform: translate(0%,-18%);
+}
+
+.timing {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 25%;
+    height: 40%;
+}
+
+.firstdivofreview {
+    transform: translate(200%,-110%);
+    width: 20%;
+    height: 10%;
+}
+
+.firstdivofreview2 {
+    transform: translate(37.5%,0);
+    width: 60%;
+    height: 62%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    .firstdivofreview2::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 20px;
+    }
+
+    /* Track */
+
+    .firstdivofreview2::-webkit-scrollbar-track {
+        background: rgb(181, 181, 181);
+        border-radius: 20px;
+    }
+
+    /* Handle */
+
+    .firstdivofreview2::-webkit-scrollbar-thumb {
+        background: rgb(0, 180, 255);
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+
+        .firstdivofreview2::-webkit-scrollbar-thumb:hover {
+            background: #555;
+            border-radius: 20px;
+        }
+
+.reviews {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    color: white;
+}
